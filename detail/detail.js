@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable space-before-function-paren */
 import { getDog } from '../fetch-utils.js';
 import { renderDogDetail } from '../render-utils.js';
