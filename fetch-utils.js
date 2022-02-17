@@ -10,7 +10,7 @@ function checkError({ data, error }) {
 
 export async function getDogs() {
     // from the dogs table, select all items
-    const response = await client.from("dogs").select("*");
+    const response = await client.from('dogs').select('*');
     // and return the response (checking for errors)
     return checkError(response);
 }
